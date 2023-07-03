@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "supremacies",
+  "info": {
+    "singularName": "supremacy",
+    "pluralName": "supremacies",
+    "displayName": "Supremacy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}
