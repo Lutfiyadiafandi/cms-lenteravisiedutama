@@ -40,7 +40,7 @@ const customRouter = (innerRouter, routeOveride = [], extraRoutes = []) => {
 const myOverideRoutes = [
   {
     method: "GET",
-    path: "/artikels/:slug",
+    path: "/products/:slug",
     handler: "api::product.product.findOne",
   },
 ];
