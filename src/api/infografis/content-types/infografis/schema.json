@@ -4,8 +4,7 @@
   "info": {
     "singularName": "infografis",
     "pluralName": "infografiss",
-    "displayName": "Infografis",
-    "description": ""
+    "displayName": "Infografis"
   },
   "options": {
     "draftAndPublish": true
@@ -13,18 +12,22 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
-    "desc": {
-      "type": "text"
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }

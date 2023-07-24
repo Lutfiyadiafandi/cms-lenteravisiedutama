@@ -12,9 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "logos": {
+    "logo": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",

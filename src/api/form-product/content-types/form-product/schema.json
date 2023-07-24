@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "contacts",
+  "collectionName": "form_products",
   "info": {
-    "singularName": "contact",
-    "pluralName": "contacts",
-    "displayName": "Contact",
+    "singularName": "form-product",
+    "pluralName": "form-products",
+    "displayName": "Form Product",
     "description": ""
   },
   "options": {
@@ -12,13 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "name": {
+      "type": "string"
+    },
     "email": {
       "type": "email"
     },
-    "phonenumber": {
+    "phone": {
       "type": "string"
     },
-    "description": {
+    "product": {
       "type": "text"
     }
   }

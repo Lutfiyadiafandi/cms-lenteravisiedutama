@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "about_uses",
+  "collectionName": "banners",
   "info": {
-    "singularName": "about-us",
-    "pluralName": "about-uses",
-    "displayName": "About Us",
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner",
     "description": ""
   },
   "options": {
@@ -12,6 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -24,12 +27,16 @@
       ]
     },
     "description": {
-      "type": "customField",
-      "options": {
-        "output": "HTML",
-        "preset": "rich"
-      },
-      "customField": "plugin::ckeditor.CKEditor"
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

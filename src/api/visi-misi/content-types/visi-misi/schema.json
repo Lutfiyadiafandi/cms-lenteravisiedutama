@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "about_uses",
+  "collectionName": "visi_misis",
   "info": {
-    "singularName": "about-us",
-    "pluralName": "about-uses",
-    "displayName": "About Us",
+    "singularName": "visi-misi",
+    "pluralName": "visi-misis",
+    "displayName": "Visi Misi",
     "description": ""
   },
   "options": {

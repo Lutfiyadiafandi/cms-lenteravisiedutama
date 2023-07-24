@@ -1,21 +1,17 @@
 {
   "kind": "collectionType",
-  "collectionName": "contacts",
+  "collectionName": "why_lves",
   "info": {
-    "singularName": "contact",
-    "pluralName": "contacts",
-    "displayName": "Contact",
-    "description": ""
+    "singularName": "why-lve",
+    "pluralName": "why-lves",
+    "displayName": "Why LVE"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "email": {
-      "type": "email"
-    },
-    "phonenumber": {
+    "title": {
       "type": "string"
     },
     "description": {

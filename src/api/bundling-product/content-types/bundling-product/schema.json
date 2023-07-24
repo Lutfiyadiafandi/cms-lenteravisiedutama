@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bundling_products",
+  "info": {
+    "singularName": "bundling-product",
+    "pluralName": "bundling-products",
+    "displayName": "Bundling Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "totalproduct": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "discountprice": {
+      "type": "string"
+    },
+    "register": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "detail": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "mappedBy": "bundlings"
+    }
+  }
+}
