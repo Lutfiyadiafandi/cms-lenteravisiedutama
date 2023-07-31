@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "infografiss",
   "info": {
     "singularName": "infografis",
